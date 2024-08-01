@@ -79,16 +79,20 @@ p {
 }
 
 .nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
     padding: 0 1.5em;
-    position: absolute;
     left: 0em;
     right: 0em;
-    bottom: 2vh;
     z-index: 99;
+
+    position: fixed;
+    bottom: 2vh;
+    width: 100%;
+
 }
 
 .tabs {
@@ -161,6 +165,8 @@ footer {
     align-items: center;
     position: relative;
     width: 100vw;
+    z-index: 100;
+    height: 6vh;
 
 }
 
