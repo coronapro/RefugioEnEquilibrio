@@ -70,7 +70,7 @@ p {
 
 
 .card {
-    height: auto;
+    height: 92vh;
     display: flex;
     flex-direction: column;
     align-items: center;
