@@ -165,7 +165,7 @@ footer {
     align-items: center;
     position: relative;
     width: 100vw;
-    z-index: 100;
+    z-index: 98;
     height: 6vh;
 
 }
